@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "thor";
+  src: url("./fonts/god-of-thunder-font/Godofthunder-0WO1P.ttf") format("ttf");
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "thor", "Courier New", Courier, monospace;
+  font-size: 1rem;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+form {
+  border: 1px solid black;
+  border-radius: 20px;
+  width: fit-content;
+  padding: 20px;
+  margin: 20px auto;
+  font-size: 1.2rem;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px 10px;
+}
+
+button {
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+  outline: 0;
+  border: 0;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: aqua;
+  font-weight: bold;
+  font-family: inherit;
+}
+
+#weather-section {
+  width: 50%;
+  margin: 20px auto;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type:circle ;
+  font-size: 1.2rem;
+}
+
+li {
+    margin-top: 10px;
+}
